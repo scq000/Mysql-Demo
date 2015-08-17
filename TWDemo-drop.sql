@@ -1,0 +1,18 @@
+USE TWDemo;
+
+ALTER TABLE Schedule DROP FOREIGN KEY Schedule_Grade;
+ALTER TABLE Schedule DROP FOREIGN KEY Schedule_Course;
+ALTER TABLE Schedule DROP FOREIGN KEY Schedule_Teacher;
+ALTER TABLE Student DROP FOREIGN KEY Student_Grade;
+
+DROP TABLE Grade;
+
+DROP TABLE Course;
+
+DROP TABLE Teacher;
+
+DROP TABLE Student;
+
+DROP TABLE Schedule;
+
+DROP DATABASE TWDemo;
